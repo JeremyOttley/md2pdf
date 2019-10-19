@@ -7,7 +7,7 @@ pandoc "$1" \
     --include-in-header headers/bullet_style.tex \
     --include-in-header headers/pdf_properties.tex \
     --include-before-body headers/cover.tex \
-    -V toc-title='Table of contents' \
+    -V toc-title="Table of Contents" \
     -V linkcolor:blue \
     -V geometry:a4paper \
     -V geometry:margin=2cm \
